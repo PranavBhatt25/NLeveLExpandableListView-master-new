@@ -29,13 +29,8 @@ public class NLevelItem implements NLevelListItem {
     public String image;
     @NonNull
     public String cursor;
-
     @NonNull
     public String tag;
-
-    @NonNull
-    public String wholeResponse;
-
 
     public NLevelItem(Object wrappedObject, NLevelItem parent, NLevelView nLevelView) {
         this.wrappedObject = wrappedObject;
@@ -129,15 +124,6 @@ public class NLevelItem implements NLevelListItem {
 
     public void setTag(@NonNull String tag) {
         this.tag = tag;
-    }
-
-    @NonNull
-    public String getWholeResponse() {
-        return wholeResponse;
-    }
-
-    public void setWholeResponse(@NonNull String wholeResponse) {
-        this.wholeResponse = wholeResponse;
     }
 
     @NonNull
