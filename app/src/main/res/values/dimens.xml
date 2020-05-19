@@ -1,0 +1,106 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_padding_half">8dp</dimen>
+    <dimen name="slide_menu_width280dp">280.0dip</dimen>
+    <dimen name="margin20dp">20.0dip</dimen>
+    <dimen name="margin5dp">5.0dip</dimen>
+    <dimen name="text_v22sp">22.0sp</dimen>
+
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_05">0.5dip</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_13">13dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_45">45dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_55">55dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_70">70dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+
+    <dimen name="text_size_4">5sp</dimen>
+    <dimen name="text_size_7">7sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">9sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">10sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">12sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">16sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="labels_text_14">14sp</dimen>
+
+    <dimen name="padding_165">165dp</dimen>
+    <dimen name="padding_200">200dp</dimen>
+    <dimen name="padding_250">250dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+    <dimen name="padding_110">110dp</dimen>
+    <dimen name="padding_120">120dp</dimen>
+    <dimen name="padding_130">130dp</dimen>
+    <dimen name="padding_140">140dp</dimen>
+    <dimen name="padding_150">150dp</dimen>
+    <dimen name="padding_180">180dp</dimen>
+    <dimen name="padding_300">300dp</dimen>
+    <dimen name="padding_285">285dp</dimen>
+    <dimen name="padding_280">280dp</dimen>
+    <dimen name="padding_255">255dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_500">500dp</dimen>
+
+    <!--Country Picker-->
+    <dimen name="google_1x">8dp</dimen>
+    <dimen name="ccp_padding">8dp</dimen>
+
+    <!--Fast Scroller-->
+    <dimen name="fastscroll__bubble_corner">20dp</dimen>
+    <dimen name="fastscroll__bubble_size">50dp</dimen>
+    <dimen name="fastscroll__handle_corner">3dp</dimen>
+    <dimen name="fastscroll__handle_height">30dp</dimen>
+    <dimen name="fastscroll__handle_width">6dp</dimen>
+    <dimen name="fastscroll__handle_inset">9dp</dimen>
+    <dimen name="fastscroll__handle_clickable_width">24dp</dimen>
+    <dimen name="fastscroll__handle_padding">2dp</dimen>
+
+    <!--floatingactionmenu-->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="menu_text_size">16dp</dimen>
+    <dimen name="menu_header_text_size">18dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+</resources>

@@ -1,9 +1,8 @@
 package com.isapanah.nlevelexpandablelistview.nLevel;
 
 /**
- * Created by sadra on 7/29/17.
+ * Created by Mahesh.Patel on 2/29/20.
  */
-
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -59,7 +58,6 @@ public class NLevelAdapter extends BaseAdapter {
         }
 
         class AsyncFilter extends AsyncTask<Void, Void, ArrayList<NLevelListItem>> {
-
             @Override
             protected ArrayList<NLevelListItem> doInBackground(Void... arg0) {
 
@@ -79,17 +77,12 @@ public class NLevelAdapter extends BaseAdapter {
     private List<NLevelListItem> filterItems() {
         List<NLevelListItem> tempfiltered = new ArrayList<NLevelListItem>();
         OUTER: for (NLevelListItem item : list) {
-            //add expanded items and top level items
-            //if parent is null then its a top level item
             if(item.getParent() == null) {
                 tempfiltered.add(item);
             } else {
-                //go through each ancestor to make sure they are all expanded
                 NLevelListItem parent = item;
                 while ((parent = parent.getParent())!= null) {
                     if (!parent.isExpanded()){
-                        //one parent was not expanded
-                        //skip the rest and continue the OUTER for loop
                         continue OUTER;
                     }
                 }
